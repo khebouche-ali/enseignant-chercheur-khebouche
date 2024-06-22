@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page personnelle de Hicham</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hicham - Enseignant de Mathématiques</h1>
+    </header>
+    <nav>
+        <a href="#about">À propos de moi</a>
+        <a href="#courses">Cours et ressources</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Bienvenue sur ma page personnelle. Je suis Hicham, enseignant de mathématiques avec une passion pour l'éducation et la transmission du savoir. Avec plusieurs années d'expérience dans l'enseignement, je m'efforce de rendre les mathématiques accessibles et intéressantes pour tous mes étudiants.</p>
+    </section>
+    <section id="courses">
+        <h2>Cours et ressources</h2>
+        <p>Ici, vous trouverez une collection de cours et de ressources pédagogiques que j'ai développés au fil des années. Ces ressources sont conçues pour aider les étudiants à comprendre les concepts mathématiques de manière claire et concise.</p>
+        <ul>
+            <li><a href="#">Cours de mathématiques niveau lycée</a></li>
+            <li><a href="#">Ressources pour les concours de mathématiques</a></li>
+            <li><a href="#">Supports de cours en ligne</a></li>
+        </ul>
+    </section>
+    <section id="publications">
+        <h2>Publications</h2>
+        <p>Je publie régulièrement des articles et des travaux de recherche dans le domaine des mathématiques. Voici quelques-unes de mes publications récentes :</p>
+        <ul>
+            <li><a href="#">Article sur les techniques de résolution des équations différentielles</a></li>
+            <li><a href="#">Étude comparative des méthodes d'enseignement des mathématiques</a></li>
+            <li><a href="#">Recherche sur l'application des mathématiques en physique</a></li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Pour me contacter, vous pouvez utiliser les informations ci-dessous :</p>
+        <p>Email : hicham@example.com</p>
+        <p>Téléphone : +213 123 456 789</p>
+        <p>Adresse : Université de Bejaia, Bejaia, Algérie</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Hicham. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
